@@ -22,19 +22,19 @@
     "noImplicitAny": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "sourceMap": true,
     "declaration": true,
     "noUnusedLocals": true,
-    "incremental": true,
+    "incremental": true
   },
   "include": [
     "src/**/*"
   ],
-    "exclude": [
-      "node_modules",
-      "build",
-      "scripts",
-      "jest"
-    ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "jest"
+  ]
 }

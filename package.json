@@ -11,6 +11,7 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "modern-normalize": "^1.0.0",
     "postcss": "^8.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -23,7 +24,7 @@
     "build": "npm run tailwind:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "postcss src/styles/tailwind.css -o ./dist/tailwind.css"
+    "build:css": "postcss src/styles/tailwind.css -o ./dist/main.css"
   },
   "eslintConfig": {
     "extends": [

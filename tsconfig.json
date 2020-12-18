@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
+    "exclude": [
+      "node_modules",
+      "build",
+      "scripts",
+      "jest"
+    ],
+    "baseUrl": ".",
+    "outDir": "dist",
     "target": "es5",
     "lib": [
+      "es6",
       "dom",
       "dom.iterable",
       "esnext"
@@ -16,11 +25,16 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "noImplicitAny": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react",
+    "sourceMap": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "incremental": true,
   },
   "include": [
-    "src"
+    "src/**/*"
   ]
 }

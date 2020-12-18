@@ -1,11 +1,5 @@
 {
   "compilerOptions": {
-    "exclude": [
-      "node_modules",
-      "build",
-      "scripts",
-      "jest"
-    ],
     "baseUrl": ".",
     "outDir": "dist",
     "target": "es5",
@@ -36,5 +30,11 @@
   },
   "include": [
     "src/**/*"
-  ]
+  ],
+    "exclude": [
+      "node_modules",
+      "build",
+      "scripts",
+      "jest"
+    ],
 }

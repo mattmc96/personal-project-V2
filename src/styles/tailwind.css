@@ -1,4 +1,4 @@
-@tailwind './style.base.css';
+@tailwind base;
 
 @tailwind components;
 

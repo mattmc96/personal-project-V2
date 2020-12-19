@@ -6,7 +6,6 @@ import { AppService } from './app.service';
 @Module({
   imports: [
     GraphQLModule.forRoot({
-      typePaths: ['./**/*.graphql'],
       resolverValidationOptions: {
         requireResolversForResolveType: false,
       },

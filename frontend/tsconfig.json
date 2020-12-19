@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "..",
     "outDir": "dist",
     "target": "es5",
     "lib": [
@@ -32,7 +32,7 @@
     "frontend/src/**/*"
   ],
   "exclude": [
-    "node_modules",
+    "../node_modules",
     "build",
     "scripts",
     "jest"

@@ -20,12 +20,12 @@
     "typescript": "^4.0.3"
   },
   "scripts": {
-    "start": "npm run watch:css && react-scripts start",
-    "build": "npm run build:css && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build:css": "postcss frontend/src/styles/tailwind.css -o src/styles/tailwind.output.css",
-    "watch:css": "postcss frontend/src/styles/tailwind.css -o src/styles/tailwind.output.css -w"
+    "start": "npm run watch:css && ../node_modules/.bin/react-scripts start",
+    "build": "npm run build:css && ../node_modules/.bin/react-scripts build",
+    "test": "../node_modules/.bin/react-scripts test",
+    "eject": "../node_modules/.bin/react-scripts eject",
+    "build:css": "../node_modules/.bin/postcss frontend/src/styles/tailwind.css -o src/styles/tailwind.output.css",
+    "watch:css": "../node_modules/.bin/postcss frontend/src/styles/tailwind.css -o src/styles/tailwind.output.css -w"
   },
   "eslintConfig": {
     "extends": [

@@ -1,9 +1,17 @@
 import { Module } from '@nestjs/common';
+import { GraphQLModule } from '@nestjs/graphql';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
 @Module({
-  imports: [],
+  imports: [
+    GraphQLModule.forRoot({
+      typePaths: ['./**/*.graphql'],
+      resolverValidationOptions: {
+        requireResolversForResolveType: false,
+      },
+    }),
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

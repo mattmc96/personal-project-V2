@@ -1,24 +1,16 @@
-# dev env
-FROM node:14.5-alpine as dev
+FROM node:14.5-alpine
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-ENV PATH /app/node_modules/.bin:$PATH
+ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
-COPY package.json yarn.lock ./
+COPY package.json ./
+
+COPY yarn.lock ./
 
 RUN yarn install
 
-COPY . /app
-
-RUN yarn run build
-
-# prod env
-FROM nginx:1.18-alpine
-
-COPY --from=dev /app/dev /usr/share/nginx/html
-
-EXPOSE 80
+COPY . .
 
 CMD ["yarn", "start"]
 

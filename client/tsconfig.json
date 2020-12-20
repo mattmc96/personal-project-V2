@@ -29,7 +29,7 @@
     "incremental": true
   },
   "include": [
-    "frontend/src/**/*"
+    "client/src/**/*"
   ],
   "exclude": [
     "../node_modules",

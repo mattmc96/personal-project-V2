@@ -1,0 +1,17 @@
+container_name: server
+build:
+  context: .
+  target: dev
+command: yarn run start:dev
+volumes:
+  - .:/usr/src/app
+  - /usr/src/app/node_modules
+ports:
+  - ${SERVER_PORT}:${SERVER_PORT}
+  - 8080:8080
+env_file:
+  - .env
+networks:
+  - webnet
+depends_on:
+  mongo

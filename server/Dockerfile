@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY package.json yarn.lock ./
 
-RUN yarn install --only=development
+RUN yarn install --only=dev
 
 COPY . .
 
@@ -25,5 +25,7 @@ RUN yarn install --only=prod
 COPY . .
 
 COPY --from=dev /usr/src/app/dist ./dist
+
+EXPOSE  8080
 
 CMD ["node", "dist/main"]

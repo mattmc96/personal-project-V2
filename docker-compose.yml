@@ -1,17 +1,66 @@
-container_name: server
-build:
-  context: .
-  target: dev
-command: yarn run start:dev
+version: "3.7"
+
+services:
+
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: connect-client:dev
+    container_name: connect-react-client-dev
+    command: yarn start
+    volumes:
+      - ./client/:/usr/app
+      - /usr/app/node_modules
+    expose:
+      - ${CLIENT_PORT}
+    ports:
+      - ${CLIENT_PORT}:${CLIENT_PORT}
+    links:
+      - server
+    restart: always
+    env_file:
+      - ./.env
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: connect-server
+    container_name: connect-node-server-dev
+    tty: true
+    expose:
+      - ${SERVER_PORT}
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    environment:
+      - MONGO_URI=mongodb+srv://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@${MONGO_URI}
+      - SERVER_PORT=${SERVER_PORT}
+      - NODE_ENV=${NODE_ENV}
+    command: yarn start:dev
+    volumes:
+      - ./server/:/usr/src/app
+      - /usr/src/app/node_modules
+    links:
+      - client
+    depends_on:
+      - db
+    env_file: ./.env
+    restart: always
+
+
+  db:
+    image: postgres:alpine
+    container_name: postgres_db
+    restart: always
+    environment:
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - db_data:/data/db
+    ports:
+      - "${DATABASE_PORT}:${DATABASE_PORT}"
 volumes:
-  - .:/usr/src/app
-  - /usr/src/app/node_modules
-ports:
-  - ${SERVER_PORT}:${SERVER_PORT}
-  - 8080:8080
-env_file:
-  - .env
-networks:
-  - webnet
-depends_on:
-  mongo
+  db_data: { }
+

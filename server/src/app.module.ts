@@ -11,7 +11,7 @@ import { MongooseModule } from '@nestjs/mongoose';
                 requireResolversForResolveType: false,
             },
         }),
-        MongooseModule.forRoot(`${process.env.DB_URL}`),
+        MongooseModule.forRoot(`${process.env.CONNECTION_STRING}`),
     ],
     controllers: [AppController],
     providers: [AppService],

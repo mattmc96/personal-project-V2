@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/client/nginx/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

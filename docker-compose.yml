@@ -32,7 +32,7 @@ services:
     ports:
       - ${SERVER_PORT}:${SERVER_PORT}
     environment:
-      - DB_URL=${CONNECTION_STRING}
+      - CONNECTION_STRING=${CONNECTION_STRING}
       - SERVER_PORT=${SERVER_PORT}
       - NODE_ENV=${NODE_ENV}
     command: yarn start:dev

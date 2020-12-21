@@ -1,0 +1,55 @@
+version: "3.7"
+
+services:
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile.prod
+    image: connect-client:prod
+    container_name: connect-react-client-prod
+    command: yarn start
+    ports:
+      - 3001:80
+    restart: unless-stopped
+    env_file:
+      - ./.env
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: connect-server:prod
+    container_name: connect-node-server-prod
+    tty: true
+    expose:
+      - ${SERVER_PORT}
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    environment:
+      - DB_URL=${CONNECTION_STRING}
+      - SERVER_PORT=${SERVER_PORT}
+      - NODE_ENV=${NODE_ENV}
+    command: yarn start
+    volumes:
+      - ./server/:/usr/src/app
+      - /usr/src/app/node_modules
+    env_file: .env
+    restart: always
+
+
+  db:
+    image: mongo:latest
+    container_name: mongo_db
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+    volumes:
+      - db_data:/data/db
+    ports:
+      - "${DATABASE_PORT}:${DATABASE_PORT}"
+volumes:
+  db_data: { }
+

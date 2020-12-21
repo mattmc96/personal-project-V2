@@ -1,8 +1,8 @@
-import {Module} from '@nestjs/common';
-import {GraphQLModule} from '@nestjs/graphql';
-import {AppController} from './app.controller';
-import {AppService} from './app.service';
-import {MongooseModule} from '@nestjs/mongoose';
+import { Module } from '@nestjs/common';
+import { GraphQLModule } from '@nestjs/graphql';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
+import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
     imports: [
@@ -11,12 +11,9 @@ import {MongooseModule} from '@nestjs/mongoose';
                 requireResolversForResolveType: false,
             },
         }),
-        MongooseModule.forRoot(
-            `mongodb+srv://${process.env.MONGO_INITDB_ROOT_USERNAME}:${process.env.MONGO_INITDB_ROOT_PASSWORD}@${process.env.MONGO_URI}`,
-        ),
+        MongooseModule.forRoot(`${process.env.DB_URL}`),
     ],
     controllers: [AppController],
     providers: [AppService],
 })
-export class AppModule {
-}
+export class AppModule {}

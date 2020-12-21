@@ -17,9 +17,7 @@ services:
       - ${CLIENT_PORT}
     ports:
       - ${CLIENT_PORT}:${CLIENT_PORT}
-    links:
-      - server
-    restart: always
+    restart: unless-stopped
     env_file:
       - ./.env
 
@@ -35,28 +33,25 @@ services:
     ports:
       - ${SERVER_PORT}:${SERVER_PORT}
     environment:
-      - MONGO_URI=mongodb+srv://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@${MONGO_URI}
+      - DB_URL=${CONNECTION_STRING}
       - SERVER_PORT=${SERVER_PORT}
       - NODE_ENV=${NODE_ENV}
     command: yarn start:dev
     volumes:
       - ./server/:/usr/src/app
       - /usr/src/app/node_modules
-    links:
-      - client
-    depends_on:
-      - db
-    env_file: ./.env
+    env_file: .env
     restart: always
 
 
   db:
-    image: postgres:alpine
-    container_name: postgres_db
-    restart: always
+    image: mongo:latest
+    container_name: mongo_db
+    restart: unless-stopped
+    env_file: .env
     environment:
-      DB_USERNAME: ${DB_USERNAME}
-      DB_PASSWORD: ${DB_PASSWORD}
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
     volumes:
       - db_data:/data/db
     ports:

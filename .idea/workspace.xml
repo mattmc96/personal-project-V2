@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/database/database.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/user/user.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/user/user.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/user/user.input.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/user/user.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/user/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/user/user.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/user/user.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/user/user.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/user/user.input.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/user/user.input.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/user/user.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/user/user.resolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/user/user.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

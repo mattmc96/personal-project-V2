@@ -55,6 +55,14 @@ services:
       - db_data:/data/db
     ports:
       - "${DATABASE_PORT}:${DATABASE_PORT}"
+
+  postgres_db:
+    image: postges:latest
+    container_name: connect-postges_db
+    ports:
+      - 54321:5432
+    environment:
+
 volumes:
   db_data: { }
 

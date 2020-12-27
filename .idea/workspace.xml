@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/src/database/database.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/user/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/user/user.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/user/user.input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/user/user.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +133,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\Users\matth\Desktop\personal-project_v2\client\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -147,8 +151,9 @@
       <command value="git push origin main " />
       <command value="git commit -m &quot;chores: graphql&quot;" />
       <command value="git commit -am &quot;chores: default " />
-      <command value="git add ." />
       <command value="git commit -am &quot;chores: default&quot;" />
+      <command value="git add ." />
+      <command value="git commit -m &quot;chores&quot;" />
       <command value="git push" />
     </option>
   </component>

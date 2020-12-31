@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Server/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/config/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/constants/constant.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/handlers/hub.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/handlers/query-hanlders.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/handlers/response-handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/handlers/routes-handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/handlers/socket-handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/handlers/structs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/utils/cors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/utils/password-hash.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.prettierrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/nest-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/.graphqlconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/database/database.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/user/user.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/user/user.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/user/user.input.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/user/user.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/user/user.resolver.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/user/user.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tsconfig.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/Server/routes.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609359748899</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chores: server blplate">
+      <created>1609387868941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609387868941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +286,8 @@
     <MESSAGE value="chores:  docker client container bplate" />
     <MESSAGE value="deleted lots" />
     <MESSAGE value="chores" />
-    <option name="LAST_COMMIT_MESSAGE" value="chores" />
+    <MESSAGE value="chores: server blplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="chores: server blplate" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

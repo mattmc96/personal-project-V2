@@ -14,17 +14,16 @@ import (
 )
 
 func main() {
-
 	godotenv.Load()
 
 	fmt.Println(
-		fmt.Sprintf("%s%s%s%s", "Server will start at http://", os.Getenv("HOST"), ":", os.Getenv("PORT")),
+		fmt.Sprintf("%s%s%s%s", "server will start at http://", os.Getenv("HOST"), ":", os.Getenv("PORT")),
 	)
 	config.ConnectDatabase()
 
 	route := mux.NewRouter()
 
-	AddApproutes(route)
+	AppRoutes(route)
 
 	serverPath := ":" + os.Getenv("PORT")
 

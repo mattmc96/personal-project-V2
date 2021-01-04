@@ -1,1 +1,31 @@
 package handlers
+
+// UserDetailsStruct is a universal struct for mapping the user details
+type UserDetailsStruct struct {
+	ID       string `bson:"_id,omitempty"`
+	Username string
+	Password string
+	Online   string
+	SocketID string
+}
+
+// ConversationStruct is a universal struct fro mapping the conversations
+type ConversationStruct struct {
+	ID         string `json:"id" bson:"_id,omitempty"`
+	Message    string `json:"message"`
+	ToUserID   string `json:"toUserID"`
+	FromUserID string `json:"fromUserID"`
+}
+
+// UserDetailsRequestPayloadStruct represents payload for Login and Registration request
+type UserDetailsRequestPayloadStruct struct {
+	Username string
+	Password string
+}
+
+// UserDetailsResponsePayloadStruct represents payload for Login and Registration response
+type UserDetailsResponsePayloadStruct struct {
+	Username string `json:"username"`
+	UserId   string `json:"userID"`
+	Online   string `json:"online"`
+}

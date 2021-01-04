@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/config/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/config/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/constants/constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/constants/constant.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/handlers/hub.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/hub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/handlers/query-hanlders.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/query-hanlders.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/handlers/response-handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/response-handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/handlers/routes-handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/routes-handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/handlers/socket-handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/socket-handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/handlers/structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/structs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/utils/cors.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/utils/cors.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/utils/password-hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/utils/password-hash.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/handlers/structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/structs.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +148,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.16347122" />
     <property name="ts.external.directory.path" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\typescript\lib" />
   </component>
@@ -239,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Go Build.go build server.go" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build db.go" />
         <item itemvalue="Go Build.go build connect-server" />
-        <item itemvalue="Go Build.go build server.go" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>

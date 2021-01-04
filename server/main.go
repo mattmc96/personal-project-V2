@@ -9,8 +9,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
 
-	config "connect-server/src/config"
-	utils "connect-server/src/utils"
+	config "personal-project_v2/src/config"
+	utils "personal-project_v2/src/utils"
 )
 
 func main() {
@@ -24,7 +24,7 @@ func main() {
 
 	route := mux.NewRouter()
 
-	AppRoutes(route)
+	AddApproutes(route)
 
 	serverPath := ":" + os.Getenv("PORT")
 

@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/handlers/socket-handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/constants/constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/constants/constant.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/hub.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/hub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/config/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/config/db.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/handlers/query-hanlders.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/query-hanlders.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/response-handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/response-handler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/handlers/routes-handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/routes-handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/socket-handlers.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/structs.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +118,7 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -152,7 +151,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.16347122" />
     <property name="ts.external.directory.path" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\typescript\lib" />
   </component>
@@ -181,12 +180,12 @@
       <command value="git push'" />
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build personal-project_v2">
     <configuration name="go build db.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="personal-project_v2" />
-      <working_directory value="$PROJECT_DIR$/Server" />
+      <working_directory value="$PROJECT_DIR$/server" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Server/src/config/db.go" />
+      <filePath value="$PROJECT_DIR$/server/src/config/db.go" />
       <package value="github.com/mattmc96/personal-project_v2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -200,23 +199,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build personal-project_v2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="personal-project_v2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <envs>
-        <env name="GO111MODULE" value="off" />
-      </envs>
-      <kind value="FILE" />
-      <filePath value="$APPLICATION_CONFIG_DIR$/scratches/main.go" />
-      <package value="github.com/mattmc96/personal-project_v2" />
+      <working_directory value="$PROJECT_DIR$/server" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/server/server.go" />
+      <package value="personal-project_v2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build server.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="personal-project_v2" />
-      <working_directory value="$PROJECT_DIR$/Server" />
+      <working_directory value="$PROJECT_DIR$/server" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Server/server.go" />
+      <filePath value="$PROJECT_DIR$/server/server.go" />
+      <package value="github.com/mattmc96/personal-project_v2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -232,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build personal-project_v2" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="Go Build.go build server.go" />
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build server.go (1)" />
         <item itemvalue="Go Build.go build db.go" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609719600116</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: structs.go">
+      <created>1609730206649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609730206649</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +314,8 @@
     <MESSAGE value="chores" />
     <MESSAGE value="chores: server blplate" />
     <MESSAGE value="Before allocation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before allocation" />
+    <MESSAGE value="feat: structs.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: structs.go" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

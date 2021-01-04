@@ -30,7 +30,7 @@ func IsUsernameAvailable(responseWriter http.ResponseWriter, request *http.Reque
 	var IsAlphaNumeric = regexp.MustCompile(`^[A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?$`).MatchString
 	username := mux.Vars(request)["username"]
 
-	// Checking if username is not empty & has only AlphaNumeric charecters
+	// Checking if username is not empty & has only AlphaNumeric characters
 	if !IsAlphaNumeric(username) {
 		response := APIResponseStruct{
 			Code:     http.StatusBadRequest,

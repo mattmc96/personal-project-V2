@@ -1,19 +1,16 @@
-import React, { FC, SyntheticEvent } from 'react';
-
-interface Person {
-    firstName: string;
-}
+import * as React from 'react';
 
 interface Props {
     email: string;
     password: string;
 }
 
-const Landing: FC<Props> = () => {
+const Landing: React.FC<Props> = () => {
+    formRef: HTML;
     return (
         <form
             ref={formRef}
-            onSubmit={(e: SyntheticEvent) => {
+            onSubmit={(e: React.SyntheticEvent) => {
                 e.preventDefault();
                 const target = e.target as typeof e.target & {
                     email: { value: string };
@@ -27,6 +24,15 @@ const Landing: FC<Props> = () => {
                     Email:
                     <input type="email" name="email" />
                 </label>
+            </div>
+            <div>
+                <label>
+                    Password:
+                    <input type="password" name="password" />
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="login" />
             </div>
         </form>
     );

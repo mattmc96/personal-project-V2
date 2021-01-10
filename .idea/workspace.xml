@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Auth/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Auth/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Landing/Landing.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Landing/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/personal-project_v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal-project_v2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/tailwind.output.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/tailwind.output.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Auth/Login.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +144,8 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="settings.editor.splitter.proportion" value="0.16347122" />
     <property name="ts.external.directory.path" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\typescript\lib" />
   </component>
@@ -178,10 +168,10 @@
       <command value="git commit -am &quot;chores: default " />
       <command value="git commit -am &quot;chores: default&quot;" />
       <command value="git commit -m &quot;chores&quot;" />
-      <command value="git push" />
+      <command value="git push'" />
       <command value="git add ." />
       <command value="git commit -m &quot;feat user server&quot;" />
-      <command value="git push'" />
+      <command value="git push" />
     </option>
   </component>
   <component name="RunManager" selected="npm.start">

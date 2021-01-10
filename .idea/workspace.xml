@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Auth/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Auth/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Landing/Landing.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Landing/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personal-project_v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal-project_v2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/config/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/config/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/query-hanlders.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/query-hanlders.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/handlers/routes-handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/handlers/routes-handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/tailwind.output.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/tailwind.output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
         <option value="TypeScript File" />
         <option value="package.json" />
         <option value="Go File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -118,7 +122,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
-    <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -131,11 +134,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/client/yarn-error.log" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.20" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -157,11 +161,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\src\styles" />
+      <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client" />
       <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\Server\src" />
       <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\Server" />
       <recent name="C:\Users\matth\Desktop\personal-project_v2\server" />
-      <recent name="C:\Users\matth\Desktop\personal-project_v2" />
-      <recent name="C:\Users\matth\Desktop\personal-project_v2\backend" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -180,7 +184,7 @@
       <command value="git push'" />
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build personal-project_v2">
+  <component name="RunManager" selected="npm.start">
     <configuration name="go build db.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="personal-project_v2" />
       <working_directory value="$PROJECT_DIR$/server" />
@@ -229,10 +233,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build personal-project_v2" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build server.go (1)" />
-        <item itemvalue="Go Build.go build db.go" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>

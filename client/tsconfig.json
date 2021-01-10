@@ -25,7 +25,8 @@
     "sourceMap": true,
     "declaration": true,
     "noUnusedLocals": true,
-    "incremental": true
+    "incremental": true,
+    "esModuleInterop": true
   },
   "include": [
     "src/**/*"

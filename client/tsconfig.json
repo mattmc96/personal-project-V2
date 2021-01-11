@@ -9,32 +9,50 @@
       "dom.iterable",
       "esnext"
     ],
+    // List of library files to be included in the compilation
     "allowJs": true,
+    // Allow JavaScript files to be compiled
     "skipLibCheck": true,
+    // Skip type checking of all declaration files
     "allowSyntheticDefaultImports": true,
+    // Allow default imports from modules with no default export
     "strict": true,
+    // Enable all strict type checking options
     "forceConsistentCasingInFileNames": true,
+    // Disallow inconsistently-cased references to the same file
     "noFallthroughCasesInSwitch": true,
+    // Report errors for fallthrough cases in switch statement
     "module": "esnext",
+    // Specify module code generation
     "moduleResolution": "node",
+    // Resolve modules using Node.js style
     "resolveJsonModule": true,
+    // Include modules imported with .json extension
     "noImplicitAny": true,
     "isolatedModules": true,
+    // Unconditionally emit imports for unresolved files
     "noEmit": true,
-    "jsx": "react-jsx",
+    // Do not emit output (meaning do not compile code, only perform type checking)
+    "jsx": "react",
+    // Support JSX in .tsx files
     "sourceMap": true,
+    // Generate corresponding .map files
     "declaration": true,
+    // Generate corresponding .d.ts file
     "noUnusedLocals": true,
+    // Report errors on unused locals
     "incremental": true,
-    "esModuleInterop": true
+    // Enable incremental compilation by reading/writing information
+    "esModuleInterop": true,
+    // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")  },
+    "include": [
+      "src/**/*"
+      // *** The files TypeScript should type check ***
+    ],
+    "exclude": [
+      "../node_modules",
+      "build",
+      "scripts",
+      "jest"
+    ]
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "../node_modules",
-    "build",
-    "scripts",
-    "jest"
-  ]
-}

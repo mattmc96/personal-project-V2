@@ -1,12 +1,7 @@
-import * as React from 'react';
-
-interface Props {
-    email: string;
-    password: string;
-}
+import React from 'react';
 
 const Landing: React.FC<Props> = () => {
-    formRef: HTML;
+    const formRef = React.useRef(null);
     return (
         <form
             ref={formRef}

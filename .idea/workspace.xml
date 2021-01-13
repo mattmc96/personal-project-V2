@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/pages/Landing.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/reducers/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Auth/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/actions/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Landing/Landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Register.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Landing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +147,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.16347122" />
     <property name="ts.external.directory.path" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\typescript\lib" />
   </component>
@@ -180,8 +172,10 @@
       <command value="git commit -m &quot;chores&quot;" />
       <command value="git push'" />
       <command value="git commit -m &quot;feat user server&quot;" />
-      <command value="git add ." />
       <command value="git commit -m &quot;frontend bp&quot;" />
+      <command value="git add ." />
+      <command value="git commit -m &quot;" />
+      <command value="git commit -m &quot;wip&quot;" />
       <command value="git push" />
     </option>
   </component>
@@ -238,7 +232,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="" />
@@ -293,7 +290,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -320,6 +317,16 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="276" key="#Plugins" timestamp="1610485798294">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="560" y="276" key="#Plugins/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610485798294" />
+    <state x="631" y="322" width="672" height="678" key="search.everywhere.popup" timestamp="1610485745842">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="631" y="322" width="672" height="678" key="search.everywhere.popup/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610485745842" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

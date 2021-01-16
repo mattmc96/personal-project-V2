@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/pages/Auth.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UserContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -337,30 +341,38 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="714" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769128012" />
-    <state width="1598" height="598" key="GridCell.Tab.0.bottom" timestamp="1610509695606">
+    <state width="1598" height="585" key="GridCell.Tab.0.bottom" timestamp="1610769244004">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1598" height="598" key="GridCell.Tab.0.bottom/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509695606" />
-    <state width="1598" height="598" key="GridCell.Tab.0.center" timestamp="1610509695606">
+    <state width="1598" height="585" key="GridCell.Tab.0.bottom/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769244004" />
+    <state width="1598" height="585" key="GridCell.Tab.0.center" timestamp="1610769244004">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1598" height="598" key="GridCell.Tab.0.center/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509695606" />
-    <state width="1598" height="598" key="GridCell.Tab.0.left" timestamp="1610509695605">
+    <state width="1598" height="585" key="GridCell.Tab.0.center/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769244004" />
+    <state width="1598" height="585" key="GridCell.Tab.0.left" timestamp="1610769244004">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1598" height="598" key="GridCell.Tab.0.left/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509695605" />
-    <state width="1598" height="598" key="GridCell.Tab.0.right" timestamp="1610509695606">
+    <state width="1598" height="585" key="GridCell.Tab.0.left/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769244004" />
+    <state width="1598" height="585" key="GridCell.Tab.0.right" timestamp="1610769244004">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1598" height="598" key="GridCell.Tab.0.right/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509695606" />
+    <state width="1598" height="585" key="GridCell.Tab.0.right/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769244004" />
     <state x="515" y="212" key="SettingsEditor" timestamp="1610572372601">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="515" y="212" key="SettingsEditor/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610572372601" />
-    <state x="574" y="274" width="672" height="677" key="run.anything.popup" timestamp="1610509689355">
+    <state x="267" y="104" width="1435" height="927" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610769339800">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="574" y="274" width="672" height="677" key="run.anything.popup/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509689355" />
+    <state x="267" y="104" width="1435" height="927" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769339800" />
+    <state x="267" y="104" width="1435" height="927" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1610769339800">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="267" y="104" width="1435" height="927" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769339800" />
+    <state x="574" y="274" width="672" height="677" key="run.anything.popup" timestamp="1610769241552">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="574" y="274" width="672" height="677" key="run.anything.popup/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769241552" />
     <state x="631" y="322" width="672" height="678" key="search.everywhere.popup" timestamp="1610571693937">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>

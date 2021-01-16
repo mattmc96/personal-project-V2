@@ -47,7 +47,7 @@
     // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")  },
     "include": [
       "src/**/*"
-      // *** The files TypeScript should type check ***
+      // ***  files TypeScript should type check ***
     ],
     "exclude": [
       "../node_modules",
@@ -55,4 +55,5 @@
       "scripts",
       "jest"
     ]
-  },
+  }
+}

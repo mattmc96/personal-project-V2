@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +124,10 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/client/yarn-error.log" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/client/yarn-error.log&#10;C:/Users/matth/Desktop/go-workspace/src/github.com/mattmc96/personal-project_v2/client/.env" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -147,7 +149,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.16347122" />
     <property name="ts.external.directory.path" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\typescript\lib" />
   </component>
@@ -173,8 +175,8 @@
       <command value="git push'" />
       <command value="git commit -m &quot;feat user server&quot;" />
       <command value="git commit -m &quot;frontend bp&quot;" />
-      <command value="git add ." />
       <command value="git commit -m &quot;" />
+      <command value="git add ." />
       <command value="git commit -m &quot;wip&quot;" />
       <command value="git push" />
     </option>
@@ -319,14 +321,50 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="636" y="330" key="#Log_Highlighting_(ideolog)" timestamp="1610769120992">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="636" y="330" key="#Log_Highlighting_(ideolog)/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769120992" />
     <state x="560" y="276" key="#Plugins" timestamp="1610485798294">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="560" y="276" key="#Plugins/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610485798294" />
-    <state x="631" y="322" width="672" height="678" key="search.everywhere.popup" timestamp="1610485745842">
+    <state x="664" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610571705431">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="631" y="322" width="672" height="678" key="search.everywhere.popup/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610485745842" />
+    <state x="664" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610571705431" />
+    <state x="714" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610769128012">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="714" y="314" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610769128012" />
+    <state width="1598" height="598" key="GridCell.Tab.0.bottom" timestamp="1610509695606">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1598" height="598" key="GridCell.Tab.0.bottom/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509695606" />
+    <state width="1598" height="598" key="GridCell.Tab.0.center" timestamp="1610509695606">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1598" height="598" key="GridCell.Tab.0.center/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509695606" />
+    <state width="1598" height="598" key="GridCell.Tab.0.left" timestamp="1610509695605">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1598" height="598" key="GridCell.Tab.0.left/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509695605" />
+    <state width="1598" height="598" key="GridCell.Tab.0.right" timestamp="1610509695606">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1598" height="598" key="GridCell.Tab.0.right/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509695606" />
+    <state x="515" y="212" key="SettingsEditor" timestamp="1610572372601">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="515" y="212" key="SettingsEditor/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610572372601" />
+    <state x="574" y="274" width="672" height="677" key="run.anything.popup" timestamp="1610509689355">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="574" y="274" width="672" height="677" key="run.anything.popup/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610509689355" />
+    <state x="631" y="322" width="672" height="678" key="search.everywhere.popup" timestamp="1610571693937">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="631" y="322" width="672" height="678" key="search.everywhere.popup/1920.116.1280.700/-1200.-310.1200.1920/0.0.1920.1170@0.0.1920.1170" timestamp="1610571693937" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

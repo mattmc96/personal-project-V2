@@ -2,7 +2,6 @@ import React from 'react';
 
 const Login: React.FC = () => {
     // const loginRef = React.useRef<HTMLFormElement | null>(null);
-
     // const loginSubmitHandler = (e: React.FormEvent) => {
     //     e.preventDefault();
     //     const target = e.target as typeof e.target & {
@@ -14,10 +13,7 @@ const Login: React.FC = () => {
     // };
 
     return (
-        <form
-        // ref={loginRef}
-        // onSubmit={loginSubmitHandler}
-        >
+       <form ref={loginRef} onSubmit={loginSubmitHandler}>
             <div>
                 <label>
                     Email:

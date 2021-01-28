@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dab7f1d6-10f3-4b2f-bf21-98fb74f351c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/UserContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UserContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Register.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,25 +147,24 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.16347122" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/client/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/redux" />
       <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\src\components\pages" />
       <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\src\components\auth" />
       <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\src\components" />
       <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client\src\styles" />
-      <recent name="C:\Users\matth\Desktop\go-workspace\src\github.com\mattmc96\personal-project_v2\client" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="git commit -m &quot;moving file structure&quot;" />
       <command value="git commit -m &quot;chores: backend server bplate&quot;" />
-      <command value="git push " />
       <command value="git push origin main " />
       <command value="git commit -m &quot;chores: graphql&quot;" />
       <command value="git commit -am &quot;chores: default " />
@@ -178,9 +174,10 @@
       <command value="git commit -m &quot;feat user server&quot;" />
       <command value="git commit -m &quot;frontend bp&quot;" />
       <command value="git commit -m &quot;" />
+      <command value="git push" />
       <command value="git add ." />
       <command value="git commit -m &quot;wip&quot;" />
-      <command value="git push" />
+      <command value="git push " />
     </option>
   </component>
   <component name="RunManager" selected="npm.start">

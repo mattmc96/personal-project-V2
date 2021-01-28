@@ -12,3 +12,5 @@ import axios from 'axios';
 export const loginUser = (userData: any, history: any) => (dispatch: any) => {
     dispatch({ type: LOADING_UI });
 };
+
+export const;

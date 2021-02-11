@@ -13,4 +13,7 @@ export const loginUser = (userData: any, history: any) => (dispatch: any) => {
     dispatch({ type: LOADING_UI });
 };
 
-export const;
+axios.post(`login`, userData).then((res) => {
+    const token = `Bearer ${res.data.token}`;
+    localStorage.setItem;
+});

@@ -327,7 +327,7 @@
         "affectsGlobalScope": false
       },
       "../src/redux/actions/userAction.ts": {
-        "version": "e639d6f6e7eab4df6f0de85eb70953b613b1bf13d28eb58b0edc030c6da2a18f",
+        "version": "559fb56531fab5252a40ea5287e643cd8a218240f6a219e23a68fe228b21396b",
         "signature": "819f4a3c6a2a5a39798bcaaa27eb7ff885865381c61717fc26455fcf9d52ec59",
         "affectsGlobalScope": false
       },
